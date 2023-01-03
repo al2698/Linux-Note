@@ -69,9 +69,9 @@ touch a.txt
 scp a.txt root@centos7-2:/root/
 ```
 
-![1_1_no_password](picture\1_1_no_password.png)
+![1_1_no_password](picture/1_1_no_password.png)
 
-![1_2_copy](picture\1_2_copy.png)
+![1_2_copy](picture/1_2_copy.png)
 
 ---
 
@@ -90,7 +90,7 @@ scp 123.txt root@192.168.1.10:/root/
 傳送資料夾範例指令：
 scp -r /home root@192.168.6.124:/home/
 
-![1_3_SCP](picture\1_3_SCP.png)
+![1_3_SCP](picture/1_3_SCP.png)
 
 ---
 
@@ -135,7 +135,7 @@ anon_root=/var/ftp
 $ systemctl restart vsftpd
 ```
 
-![6_1_NFS](picture\6_1_NFS.png)
+![6_1_NFS](picture/6_1_NFS.png)
 
 ---
 
@@ -152,7 +152,7 @@ $ chmod 755 /home/user/mydata
 $ vim /etc/exports  # 修改檔案設定，分享檔案
 ```
 
-![2_3_NFS_set](picture\2_3_NFS_set.png)
+![2_3_NFS_set](picture/2_3_NFS_set.png)
 
 ```
 $ sudo systemctl restart nfs
@@ -161,7 +161,7 @@ $ showmount -e localhost
 
 client
 
-![2_1_NFS](picture\2_1_NFS.png)
+![2_1_NFS](picture/2_1_NFS.png)
 
 ```
 $ yum install nfs-utils
@@ -174,7 +174,7 @@ $ mkdir /home/user/test
 $ sudo mount -t nfs 192.168.56.6:/mydata /home/user/test
 ```
 
-![2_2_NFS_share_file](picture\2_2_NFS_share_file.png)
+![2_2_NFS_share_file](picture/2_2_NFS_share_file.png)
 
 
 ---
@@ -205,9 +205,9 @@ ps -ef | grep xinetd  # 執行監控程式碼，有客戶端連進來，就會�
 ps -ef | grep telnet  # 沒有客戶端，telnet不會執行
 ```
 
-![12_2_talnet](picture\12_2_talnet.png)
+![12_2_talnet](picture/12_2_talnet.png)
 
-![12_3_talnet](picture\12_3_talnet.png)
+![12_3_talnet](picture/12_3_talnet.png)
 
 ---
 
@@ -260,7 +260,7 @@ $ systemctl start smb
 win+R >> //192.168.56.6
 ```
 
-![4_1_SAMBA](picture\4_1_SAMBA.png)
+![4_1_SAMBA](picture/4_1_SAMBA.png)
 
 ---
 
@@ -282,7 +282,7 @@ $ ./ngrok config add-authtoken 21wkXensqm65Mg4kaN5kqIFi5lm_7ad7fFjoZzeeRTVoagAri
 $ ./ngrok http 80
 ```
 
-![5_1_ngrok](picture\5_1_ngrok.png)
+![5_1_ngrok](picture/5_1_ngrok.png)
 
 ---
 
@@ -348,7 +348,7 @@ PS：注意ChrootDirectory设置的目录/data_share/dingli/的所有者必须�
 
 new sftp user
 
-![1_4_SFTP](picture\1_4_SFTP.png)
+![1_4_SFTP](picture/1_4_SFTP.png)
 
 ```
 $ sudo adduser sftpuser
@@ -416,7 +416,7 @@ client connect
 nc localhost 9090
 ```
 
-![](picture\12_1_echo_system.png)
+![](picture/12_1_echo_system.png)
 
 ---
 
@@ -479,7 +479,7 @@ $ sysctl -p
 
 連線到之後就可以使用Windows進行連接：
 
-![7_1_pptpd](picture\7_1_pptpd.png)
+![7_1_pptpd](picture/7_1_pptpd.png)
 
 ---
 
@@ -516,7 +516,7 @@ $ cat /etc/httpd/conf/httpd.conf | grep Listen
 
 http://[192.168.56.6]
 
-![3_1_httpd](picture\3_1_httpd.png)
+![3_1_httpd](picture/3_1_httpd.png)
 
 ---
 
