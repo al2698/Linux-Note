@@ -1,0 +1,13 @@
+筆記參考魏仲彥和學姊 GitHub，因為考試時有些server 無法做出來，所以內容有所缺漏，我打算暑假把老師的影片複習一遍看看是哪裡有問題！
+- [ ] [WebDAV](https://github.com/stereomp3/note/blob/main/linux/111semester02/03.md#WebDAV)
+- [ ] [DNS server](https://github.com/stereomp3/note/blob/main/linux/111semester02/05.md#DNS_server)
+- [ ] [ docker web load balancing](https://github.com/stereomp3/note/blob/main/linux/111semester02/07.md#docker)
+- [ ] [jumpServer setup](https://github.com/stereomp3/note/blob/main/linux/111semester02/08.md#jumpServer)
+- [ ] [set up email server](https://github.com/stereomp3/note/blob/main/linux/111semester02/10.md#架設伺服器端)
+- [ ] [Zabbix server setup](https://github.com/stereomp3/note/blob/main/linux/111semester02/10.md#Zabbix)
+- [ ] [Zabbix client setup](https://github.com/stereomp3/note/blob/main/linux/111semester02/10.md#架設客戶端)
+- [ ] [Zabbix set notification with email](https://github.com/stereomp3/note/blob/main/linux/111semester02/11.md#zabbix)
+- [ ] [Zabbix notify with line](https://github.com/stereomp3/note/blob/main/linux/111semester02/12.md#Zabbix)
+- [ ] [custom zabbix parameter (httpd、connections)](https://github.com/stereomp3/note/blob/main/linux/111semester02/12.md#custom_parameter)
+- [ ] [Ansible setup](https://github.com/stereomp3/note/blob/main/linux/111semester02/13.md#Ansible)
+- [ ] [Asinble playbook](https://github.com/stereomp3/note/blob/main/linux/111semester02/15.md#Asinble_playbook)
