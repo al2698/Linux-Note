@@ -1,5 +1,5 @@
 # SNS
-![image_1](picture/1_wejxUJ1-h-d7zbFl0pNWZQ.png)
+![image_1](./Picture/1_wejxUJ1-h-d7zbFl0pNWZQ.png)
 
 1. SNS 非同步 queue 架構由以下三個主要組件組成：
 
