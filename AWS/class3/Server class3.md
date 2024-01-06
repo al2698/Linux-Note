@@ -17,8 +17,8 @@ Virtual Private Cloud—Amazon VPC
 subnet 對應 AZ
 > 子網路可以對應到一個或多個 Availability Zones (AZ)
 
-![Alt text](../picture/photo_2023-09-26_18-49-25.jpg)
-![Alt text](../picture/photo_2023-09-26_18-50-25.jpg)
+![Alt text](../Picture/photo_2023-09-26_18-49-25.jpg)
+![Alt text](../Picture/photo_2023-09-26_18-50-25.jpg)
 
 NACL
 1. 是 AWS 提供的網路安全功能，可用來控制進出子網路的流量。
@@ -35,12 +35,12 @@ NACL
 優點 | 簡單易用，適用於簡單的防火牆需求 | 功能強大，適用於複雜的防火牆需求
 缺點 | 無法控制流量的狀態，例如是否為回應流量 | 需要對流量的狀態進行控制
 
-![Alt text](../picture/photo_2023-09-22_12-01-42.jpg)
+![Alt text](../Picture/photo_2023-09-22_12-01-42.jpg)
 
 ENI (Elastic Network Interface)
 > 可用於將 Amazon EC2 執行個體連接到虛擬私有雲 (VPC) 中的子網路。ENI 可以有多個 IP 地址，並且可以附加到多個執行個體上。
 
-![Alt text](../picture/photo_2023-09-22_15-00-02.jpg)
+![Alt text](../Picture/photo_2023-09-22_15-00-02.jpg)
 
 instance storage
 > 實例存儲是直接連接到 EC2 執行個體的存儲。它是一種臨時存儲，在實例停止或終止時會丟失。實例存儲是免費的，但僅限於少量存儲容量。
@@ -49,7 +49,7 @@ EBS
 > 可連接到任何 EC2 執行個體的存儲。它是持久存儲，在實例停止或終止時保留。EBS 可以按需擴展，並提供多種性能選項。
 
 
-![Alt text](../picture/photo_2023-09-22_15-11-50.jpg)
+![Alt text](../Picture/photo_2023-09-22_15-11-50.jpg)
 
 Elastic Load Balancing (ELB)：
     **提高性能——** ELB 可以將流量分發到最近的後端服務器，以提高效能。
@@ -57,7 +57,7 @@ Elastic Load Balancing (ELB)：
 
 Amazon EC2 Auto Scaling (ASG) 是 AWS 提供的一種服務，可用於自動調整 EC2 執行個體的數量，以滿足您的應用程式的需求。如：電商平台雙十一訪問數暴增
 
-![Alt text](../picture/Screenshot_20230926_192516_Meet.jpg)
+![Alt text](../Picture/Screenshot_20230926_192516_Meet.jpg)
 
 ## VPC 實作
 ![Alt text]()
