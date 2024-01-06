@@ -81,8 +81,8 @@ Serverless 的優點包括：
 
 # AWS 註冊
 
-![image_1](/Picture/螢幕擷取畫面%202023-09-12%20192742.png)
-![image_1](/Picture/螢幕擷取畫面%202023-09-12%20193334.png)
-![image_1](/Picture/螢幕擷取畫面%202023-09-12%20193402.png)
-![image_1](/Picture/螢幕擷取畫面%202023-09-12%20193542.png)
-![image_1](/Picture/image_2023-09-12_19-36-37.png)
+![image_1](./Picture/螢幕擷取畫面%202023-09-12%20192742.png)
+![image_1](./Picture/螢幕擷取畫面%202023-09-12%20193334.png)
+![image_1](./Picture/螢幕擷取畫面%202023-09-12%20193402.png)
+![image_1](./Picture/螢幕擷取畫面%202023-09-12%20193542.png)
+![image_1](./Picture/image_2023-09-12_19-36-37.png)
