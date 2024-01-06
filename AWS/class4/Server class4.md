@@ -13,7 +13,7 @@
 
 ## private server 增設後端資料庫
 
-![Alt text](/Picture/image-1.png)
+![Alt text](../Picture/image-1.png)
 ![Alt text](../Picture/螢幕擷取畫面%202023-10-03%20185726.png)
 ![Alt text](../Picture/螢幕擷取畫面%202023-10-03%20190008.png)
 
